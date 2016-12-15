@@ -7,12 +7,13 @@ header {
 }
 body {
 	background-color:#6E54FF; 
-	font-family:Arial, sans-serif;
+	font-family:Helvetica, sans-serif;
 	text-align:center;
 }
 h1 {
 	color:#E6E6ED;
-	font-family:Tahoma;
+	font-family:Helvetica;
+	text-transform: uppercase;
     padding: 50px 30px 50px 80px;
 }
 h3 {
