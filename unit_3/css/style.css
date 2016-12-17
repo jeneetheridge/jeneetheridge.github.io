@@ -35,8 +35,14 @@ ul {
 }
 img {
 	max-width: 350px;
+	max-height: 350px;
+}
+.tallimage {
+	max-height: 700px;
+	max-width:350px;
 }
 a {
 	text-decoration: none;
 	font-weight: normal;
 }
+
