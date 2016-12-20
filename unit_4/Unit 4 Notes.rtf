@@ -1,0 +1,161 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 OpenSans-Light;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red255\green255\blue255;}
+\margl1440\margr1440\vieww8240\viewh13280\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Visual Design: a creative process that combines art and technology to create ideas \
+\
+Readability: How well the text can be understood \
+\
+Glyph: a single symbol of a typeface (letters, numbers, punctuations)\
+\
+Typeface refers to an entire family of glyphs (Helvetica). Font refers to a specific setting of those glyphs (Paragraph set in 12 point Helvetica Bold) \
+\
+Serif: \
+\
+Sans Serif:\
+\
+Sizing: points or pixels. Measured from very top to bottom of letters \
+\
+X height: measures very top of lowercase to the baseline\
+\
+Weight: relative heaviness of typeface based on how thick the strokes are (bold vs. normal) \
+\
+/////////////////////////////////////////////////////////////////////////////\
+\
+Line Length - # of characters per line. Shorter lines read easier than longer lines. W3C recommends line length not exceed 80 characters \
+\
+Line Height - amt of space between lines of text. CSS: line height. W3C recommends 150%-200% of text size \
+* you can set the line height *relative* to the font size \
+* CSS: em \'97 2em same as double spacing \
+\
+Paragraph Spacing - Spacing between paragraphs of text. CSS: margin space. \
+\
+Headers vs. body \
+body text - use serif typeface for better readability \
+\
+/////////////////////////////////////////////////////////////////////////////\
+\
+Typographic pairings \
+\
+Use typefaces with high contract \
+- serif + sans serif \
+- weights: semi-bold + black \
+*aim to have at least one degree between weights for better contrast \
+- stroke thickness \
+\
+choose typefaces that share same baseline and x-height \
+make sure cap height and glyph width are similar in proportion \
+\
+/////////////////////////////////////////////////////////////////////////////\
+\
+Type Scalability: Maintaining the relative size of text components \
+\
+em: relative unite tying size to default text value\
+example:\
+\
+h2 \{\
+font-size: 1.5em\
+\}\
+\
+headline is 1.5x default text value \
+\
+Font services: \
+Adobe Typekit \
+Google Fonts \
+Cloud.typography \
+\
+HIgh quality custom typefaces available to any viewer \
+More styles, extended character sets, glyphs for on screen viewing  \
+\
+Extended Characters: \
+Ligatures (letters joined together)\
+Alternatives \
+Small Caps\
+\
+Grammar Rules! \
+\
+Rule 1: Only use single space after periods or any other punctuation after a sentence. Double spaces create rivers of space.\
+\
+Rule 2: Understand differences between Hyphens, emn dashes and em dashes \
+Hyphen (compound words): blue-green sea\
+En dash: range of values - 3-4 times per week \
+Em dash: break in thought \
+\
+Rule 3: Typographer quotes vs. Prime marks \
+\
+Typographer\'92s Quotes - used for apostro	phes and quotations \
+The Boy\'92s dog\
+Right now you\'92re thinking, \'93I love General Assembly.\'94\
+\
+Prime Marks - used for measurement. \
+6\'925\'94\
+\
+//////////////////\
+\
+
+\b LECTURE NOTES  \
+
+\b0 \
+\ul Minimum font size for body copy\ulnone : 16px \
+in CSS: /*1 em = 16px*/\
+\
+\ul Limit line length from 45 - 90 characters. \ulnone First set main font size in body, count characters in one line \
+\
+Take font size and multiply by 30 to get \ul ideal width for paragraph.\ulnone  \
+16px times 30=480 or\'85\
+\
+line-height/letting/space between lines. always add it on your paragraphs. 1.5x the font size. \
+\
+p\{\
+font-size:1em;\
+width:30em;\
+\}\
+\
+in html: images in \'91section class=neils\'92\
+\
+class: set class width of sections to 30em \
+\
+.neils:\
+width:30em;\
+margin:2emauto;\
+\}\
+\
+to match paragraph width \
+\
+focus on adjusting containers to also change content within those (change section containers to affect body/p inside)\
+\
+p\{\
+font-size:1em;\
+width:30em;\
+line-height:1.5em;\
+\}
+\f1\b\fs36 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+
+\f0\b0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+<hr> horizontal rule \
+\
+hr\{\
+border:none;\
+height:3px;\
+background-color:gray;\
+width:2em;\
+margin:2em auto; \'97 2em for top and bottom, auto for left and right \
+\}\
+\
+\
+a\{\
+text-decoration:none;\
+border-bottom:1px solid #000;\
+\}\
+\
+\
+\
+\
+\
+\
+\
+\
+}
