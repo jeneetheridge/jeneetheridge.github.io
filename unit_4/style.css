@@ -12,13 +12,14 @@
 }
 header {
 	text-transform: uppercase;
+	text-align:center;
 }
 body {
 	background-color:#3E4744;
 	font-size:16px;
 	font-family: 'Heebo', sans-serif;
 	font-weight:400;
-	text-align:auto;
+	text-align:;
 	color: #fff;
 
 }
@@ -46,10 +47,14 @@ a {
 	border-bottom:1px solid #fff;
 }
 ul {
-    list-style-type: none;
+    list-style: none;
+    margin:0;
+    padding:0;
 }
 img {
 	width: 350px;
+	display:block;
+	margin:0 auto;
 }
 .tallimage {
 	width:350px;
@@ -60,11 +65,13 @@ a {
 }
 
 #aboutme {
-	float:;
+	text-align:center;
+	display:block;
+	margin:0 auto;
 	width:auto;
 
 }
 #projects {
-	width:302m;
 	margin:2em auto;
 }
+
