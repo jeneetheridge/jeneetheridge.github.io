@@ -25,7 +25,7 @@ body {
 }
 p {
 	font-size:1em;
-	width:30em;
+	/* width:30em; */
 	line-height: 1.5em;
 	text-align:center;
 }
@@ -86,6 +86,7 @@ a {
 }
 #projects {
 	margin:2em auto;
+	width: 1200px;
 }
 #skills {
 	margin:2em auto;
@@ -99,7 +100,7 @@ a {
 	margin:0 auto;
 }
 #projects {
-	clear:both;
+	/* clear:both; */
 }
 aside {
 	background-color: #FFC675;
@@ -118,6 +119,20 @@ footer {
 }
 article {
 	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
+	width: 32.33%;
+	float: left;
+	min-height: 30em;
+	margin: .5%;
+}
+article img {
+	width:100%;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
 }
