@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300, 400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+	border-bottom:1px solid #fff;
+}
+a:hover {
+	color:#ccc;
+	}
+
+article {
+	padding: 20px;
+	width: 32.33%;
+	float: left;
+	min-height: 30em;
+	margin: .5%;
+}
+article img {
+	width:100%;
+}
+body {
+	background-color:#3E4744;
+	font-size:16px;
+	font-family: 'Heebo', sans-serif;
+	font-weight:400;
+	text-align:center;
+	color: #fff;
+	}
+
+.contactlinks a:hover {
+	outline: solid #fff;
+	color:#fff;
+	}
+figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+h1 {
+	color:#fff;
+	font-family:'Droid Sans Mono', monospace;
+	text-transform: uppercase;
+    padding: 50px 30px 50px 80px;
+    font-size:5em;
+}
+h2 {
+	text-align: center;
+	font-size:1.5em;
+}
+h3 {
+	font-weight:700;
+	text-transform: uppercase;
+}
+h4 {
+	font-weight:300;
+	text-transform: uppercase;
+	}
+img {
+	display:block;
+	margin:0 auto;
+	width:350px;
+}
+header {
+	text-transform: uppercase;
+	text-align:center;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+html { 
+  background: url(images/nolame.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 200px;
+}
+
+li{
+    float: left;
+    width: 50%;
+    padding:10px;
+}
+
+
+nav a {
+	padding: 0 10px 0 10px;
+	border-bottom: none;
+	display:inline-block;
+}
+nav a:hover {
+	outline: solid #fff;
+	color:#fff;
+	}
+p {
+	font-size:1em;
+	/* width:30em; */
+	line-height: 1.5em;
+	text-align:center;
+}
+ul {
+    list-style: none;
+    margin:0;
+}
+
+#aboutme {
+	text-align:center;
+	display:block;
+	margin:2em auto;
+	width:50em;
+	padding:50px;
+}
+#background {
+	width:1200px;
+}
+
+#contact {
+	clear:both;
+	padding:10%;
+	background-color: #000;
+}
+
+#projects {
+	margin:2em auto;
+	width: 1200px;
+}
+
+#skills {
+	margin:5em auto;
+	width:50em;
+	background-color: #000;
+}
+
+.clearfix:after {
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+.contactlinks {
+	margin:40px 40px 0 40px;
+	padding:10px;
+	border-bottom:none;
+}
+.emaillink {
+	border-bottom: none;
+}
+.navlinks {
+	padding:10px ;
+	margin:10px;
+}

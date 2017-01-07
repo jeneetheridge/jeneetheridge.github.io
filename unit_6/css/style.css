@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300, 400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+header {
+	text-transform: uppercase;
+	text-align:center;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+body {
+	background-color:#3E4744;
+	font-size:16px;
+	font-family: 'Heebo', sans-serif;
+	font-weight:400;
+	text-align:center;
+	color: #fff;
+}
+p {
+	font-size:1em;
+	/* width:30em; */
+	line-height: 1.5em;
+	text-align:center;
+}
+h1 {
+	color:#fff;
+	font-family:'Droid Sans Mono', monospace;
+	text-transform: uppercase;
+    padding: 50px 30px 50px 80px;
+    font-size:5em;
+}
+h2 {
+	text-align: center;
+	font-size:1.5em;
+}
+h3 {
+	font-weight:700;
+	text-transform: uppercase;
+}
+h4 {
+	font-weight:300;
+	text-transform: uppercase;
+	}
+nav {
+	float;top;
+}
+nav a {
+	margin-left: 10px;
+	margin-right:10px;
+}
+nav a:hover {
+	color:#ccc;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+	border-bottom:1px solid #fff;
+}
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+img {
+	display:block;
+	margin:0 auto;
+	width:350px;
+}
+article img {
+	width:100%;
+}
+a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#aboutme {
+	text-align:center;
+	display:block;
+	margin:2em auto;
+	width:50em;
+	padding:50px;
+	padding-left: 150px;
+
+}
+#projects {
+	margin:2em auto;
+	width: 1200px;
+}
+#skills {
+	margin:2em auto;
+	width:50em;
+}
+#background {
+	width:1200px;
+}
+#wrapper {
+	width:1080px;
+	margin:0 auto;
+}
+#contact {
+	clear:both;
+}
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	width: 32.33%;
+	float: left;
+	min-height: 30em;
+	margin: .5%;
+}
+article img {
+	width:100%;
+}
+.clearfix:after {
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;
+}
+
+li{
+    float: left;
+    width: 50%;
+    padding:10px;
+}
+
+ul {
+	padding-bottom:120px;
+}
+
+html { 
+  background: url(images/nolame.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
