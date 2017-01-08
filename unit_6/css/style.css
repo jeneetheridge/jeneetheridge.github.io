@@ -140,7 +140,8 @@ ul {
 
 #skills {
 	margin:5em auto;
-	width:50em;
+	width:50em auto;
+	padding:2em 10em 4em 10em;
 	background-color: #000;
 }
 
