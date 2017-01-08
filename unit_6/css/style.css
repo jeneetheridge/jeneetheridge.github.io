@@ -8,12 +8,13 @@
 	box-sizing:border-box;
 }
 a {
-	color:#fff;
+	color:#FFFBEC;
 	text-decoration:none;
 	border-bottom:1px solid #fff;
 }
 a:hover {
-	color:#ccc;
+	color:#fff;
+	outline:0.9px solid #fff;
 	}
 
 article {
@@ -27,13 +28,14 @@ article img {
 	width:100%;
 }
 body {
-	background-color:#3E4744;
+	background-color:/*#3E4744*/#FFFBEC;
 	font-size:16px;
 	font-family: 'Heebo', sans-serif;
 	font-weight:400;
 	text-align:center;
-	color: #fff;
+	color: #2B2B28;
 	}
+/*
 figure img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
@@ -44,17 +46,18 @@ figure:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+*/
 h1 {
-	color:#fff;
+	color:#FFFBEC;
 	font-family:'Droid Sans Mono', monospace;
 	text-transform: uppercase;
-    padding: 50px 30px 50px 80px;
+    padding: 150px 30px 50px 80px;
     font-size:5em;
 }
 h2 {
 	text-align: center;
 	font-size:1.5em;
-	padding:5% 0 5% 0;
+	padding:40px 0 40px 0;
 	text-transform: uppercase;
 }
 h3 {
@@ -66,19 +69,9 @@ h4 {
 	text-transform: uppercase;
 	}
 header {
-	text-transform: uppercase;
 	text-align:center;
-    padding: 20px;
     margin-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.1);
-}
-html { 
-  background: url(images/nolame.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 200px;
 }
 
 img {
@@ -86,25 +79,44 @@ img {
 	margin:0 auto;
 	width:350px;
 }
+
 li{
     float: left;
     width: 50%;
     padding:10px;
 }
+
+nav {
+	padding-top:5%;
+}
 nav a {
-	padding: 0 10px 0 10px;
+	text-transform: uppercase;
+	padding: 10px;
 	border-bottom: none;
 	display:inline-block;
+	margin:10px;
+	color:#FFFBEC;
 }
 nav a:hover {
-	outline: solid #fff;
-	color:#fff;
+	outline: 0.9px solid #FFFBEC;
+	color:#FFFBEC;
 	}
+
+nav a:link{
+	color:#FFFBEC;
+}
+nav a:visited{
+	color:#FFFBEC;
+}
+nav a: active{
+	color:#FFFBEC;
+}
 p {
 	font-size:1em;
 	line-height: 1.5em;
 	text-align:center;
 }
+
 ul {
     list-style: none;
     margin:0;
@@ -114,19 +126,19 @@ ul {
 	text-align:center;
 	display:block;
 	margin:2em auto;
-	width:50em;
-	padding:50px;
+	width:48em;
+	padding:50px ;
 }
-#background {
-	width:1200px;
-}
-
 #contactleft {
-     background-color: violet;
+    background-color: violet;
     border: 1px black solid;
     padding: 20px;
     float: left;
     width: 50%;
+}
+#contactme {
+	color:#FFFBEC;
+	/*background-color: #2B2B28;*/
 }
 #contactright {
    background-color: pink;
@@ -135,17 +147,29 @@ ul {
     float: right;   
     width: 50%;
 }
-
+#lander{
+	background:url(../images/heroimg.png) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:600px;
+}
 #projects {
 	margin:2em auto;
 	width: 1200px;
+
+}
+#projects a {
+	color:#000;
 }
 
 #skills {
 	margin:5em auto;
 	width:50em auto;
 	padding:2em 10em 4em 10em;
-	background-color: #000;
+	background-color: #2B2B28;
+	color:#FFFBEC;
 }
 
 #two_column{
@@ -166,19 +190,17 @@ ul {
     height: 0;
 }
 .contactlinks {
-	padding:5px 0px 5px 0px;
+	padding:10px;
 	border-bottom:none;	
 }
 
 .contactlinks a:hover {
-	outline: solid #fff;
+	outline: 0.9px solid #fff;
 	color:#fff;
 	}
 
 .emaillink {
 	border-bottom: none;
+	padding:10px;
 }
-.navlinks {
-	padding:10px ;
-	margin:10px;
-}
+
