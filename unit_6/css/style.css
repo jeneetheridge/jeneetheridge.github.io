@@ -12,8 +12,8 @@ a {
 	text-decoration:none;
 	padding:5px;
 }
+
 a:hover {
-	outline: solid #fff;
 	color:#fff;
 	}
 
@@ -24,8 +24,11 @@ article {
 	min-height: 30em;
 	margin: .5%;
 }
-article img {
+img {
 	width:100%;
+	max-width:350px;
+	display:block;
+	margin:auto;
 }
 body {
 	background-color:#3E4744;
@@ -81,13 +84,17 @@ li{
     width: 50%;
     padding:10px;
 }
+nav {
+	padding-top: 5%;
+}
 nav a {
-	padding: 0 10px 0 10px;
+	padding: 10px;
 	border-bottom: none;
 	display:inline-block;
+	margin:10px;
 }
 nav a:hover {
-	outline: solid #fff;
+	outline: 0.8px solid #fff;
 	color:#fff;
 	}
 p {
@@ -139,6 +146,11 @@ ul {
 	width: 1200px;
 }
 
+#projects a{
+	padding:0px;
+	margin:0px;
+}
+
 #skills {
 	margin:5em auto;
 	width:50em auto;
@@ -165,14 +177,12 @@ ul {
 }
 
 .contactlinks a:hover {
-	outline: solid #fff;
-	color:#fff;
+	outline: 0.8px solid #fff;
 	}
 
-.emaillink {
-	
+.emaillink a:hover {
+	outline: 0.8px solid #fff;
 }
-.navlinks {
-	padding:10px ;
-	margin:10px;
+.navlinks a:hover{
+	outline: 0.8px solid #fff;
 }
