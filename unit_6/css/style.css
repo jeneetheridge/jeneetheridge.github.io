@@ -1,202 +1,184 @@
-@import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
-@import url(https://fonts.googleapis.com/css?family=Allerta);
+@import url('https://fonts.googleapis.com/css?family=Heebo:300, 400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
 
-
-*{
-	margin:0;
+* {
 	padding:0;
+	margin:0;
 	box-sizing:border-box;
 }
-
-body{
-	background-color: #201828;
-	font-size: 16px;
-	position: relative;
-}
-
-header{
-	padding:0 200px;
-}
-
-nav{
-	/*margin:auto;*/
-	text-align: center;
-	float: right;
-}
-
-/*LoVe HAte*/
-
-nav a:link{
-	font-family: 'Allerta', sans-serif;
+a {
 	color:#fff;
-	margin:0 32px;
-	padding-bottom:5px;
-	font-size: .8em;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
-nav a:visited{
-	color: #fff;
-}
-
-nav a:hover{
-	border-bottom: 1px solid #fff;
-}
-
-nav a:active{
-	color:#fff;
-}
-
-
-
-main{
-	background-color: #F1E9E4;
-	color:#3C3C3C;
-	padding:50px 0;
-}
-
-section{
-	padding:50px 0;
-}
-
-footer{
-	background:url(../assets/stars.jpg) no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	color:#F1E9E4;
-	padding:100px 0;
-}
-
-h1{
-	font-family: 'Racing Sans One', serif;
-	font-weight: normal;
-	font-size:60px;
-	text-align:center;
-	color:#fff;
-	margin:200px 0 0;
-}
-
-h2,
-h3,
-h4{
-	font-family: 'Allerta', sans-serif;
-	text-align: center;
-}
-
-h2{
-	font-size:.8em;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
-h3{
-	font-size:2em;
-	margin:1em;
-}
-
-h4{
-	font-size:3em;
-	text-align:center;
-}
-
-p{
-	font-family: 'Crimson Text', serif;
-	font-size:1em;
-	line-height: 1.6em;
-}
-
-ul{
-	list-style:none;
-	margin:.5em 0 0;
-}
-
-li{
-	font-family: 'Crimson Text', serif;
-	text-align: center;
-}
-
-a{
 	text-decoration:none;
-	color: #201828;
+	border-bottom:1px solid #fff;
 }
+a:hover {
+	color:#ccc;
+	}
 
-img{
+article {
+	padding: 20px;
+	width: 32.33%;
+	float: left;
+	min-height: 30em;
+	margin: .5%;
+}
+article img {
 	width:100%;
-/*	height:40px;*/
+}
+body {
+	background-color:#3E4744;
+	font-size:16px;
+	font-family: 'Heebo', sans-serif;
+	font-weight:400;
+	text-align:center;
+	color: #fff;
+	}
+figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+h1 {
+	color:#fff;
+	font-family:'Droid Sans Mono', monospace;
+	text-transform: uppercase;
+    padding: 50px 30px 50px 80px;
+    font-size:5em;
+}
+h2 {
+	text-align: center;
+	font-size:1.5em;
+	padding:5% 0 5% 0;
+	text-transform: uppercase;
+}
+h3 {
+	font-weight:700;
+	text-transform: uppercase;
+}
+h4 {
+	font-weight:300;
+	text-transform: uppercase;
+	}
+header {
+	text-transform: uppercase;
+	text-align:center;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+html { 
+  background: url(images/nolame.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 200px;
 }
 
-hr{
-	border:none;
-	width:2em;
-	margin:1em auto;
+img {
+	display:block;
+	margin:0 auto;
+	width:350px;
+}
+li{
+    float: left;
+    width: 50%;
+    padding:10px;
+}
+nav a {
+	padding: 0 10px 0 10px;
+	border-bottom: none;
+	display:inline-block;
+}
+nav a:hover {
+	outline: solid #fff;
+	color:#fff;
+	}
+p {
+	font-size:1em;
+	line-height: 1.5em;
+	text-align:center;
+}
+ul {
+    list-style: none;
+    margin:0;
 }
 
-h3 + hr{
-	background-color: #3C3C3C;
-	height:3px;
+#aboutme {
+	text-align:center;
+	display:block;
+	margin:2em auto;
+	width:50em;
+	padding:50px;
+}
+#background {
+	width:1200px;
 }
 
-h2 + hr{
-	background-color: #fff;
-	height:1px;
+#contactleft {
+     background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+#contactright {
+   background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 50%;
 }
 
-.clearfix:after{
-	visibility: hidden;
-	height: 0;
-	font-size: 0;
-	content:"hello";
-	display: block;
+#projects {
+	margin:2em auto;
+	width: 1200px;
+}
+
+#skills {
+	margin:5em auto;
+	width:50em auto;
+	padding:2em 10em 4em 10em;
+	background-color: #000;
+}
+
+#two_column{
 	clear:both;
+	padding:10%;
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding:5% 0 20% 0;
+
 }
 
-.wrapper{
-	/*background-color: purple;*/
-	width: 90%;
-    margin: auto;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.contactlinks {
+	padding:5px 0px 5px 0px;
+	border-bottom:none;	
 }
 
-.neils{
-	width:22%;
-	margin:1.5%;
-	float:left;
-	/*background-color: orange;*/
+.contactlinks a:hover {
+	outline: solid #fff;
+	color:#fff;
+	}
+
+.emaillink {
+	border-bottom: none;
 }
-
-.neils img{
-	max-width: 250px;
-	display: block;
-	margin:auto;
+.navlinks {
+	padding:10px ;
+	margin:10px;
 }
-
-.neils > h3{
-	margin:.5em;
-}
-
-.planet{
-	width:500px;
-	margin:50px auto;
-	padding:20px 0 40px;
-}
-
-#lander{
-	background:url(../assets/carina-nebula.jpg) no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height:750px;
-	padding:20px 0;
-}
-
-#planets{
-	background-color:#000;
-	color:#F1E9E4;
-}
-
-
