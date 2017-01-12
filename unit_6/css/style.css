@@ -12,6 +12,7 @@ a {
 	text-decoration:none;
 	border-bottom: 2px #fff;
 	padding:0.5em;
+	margin:1em;
 }
 
 a:hover {
@@ -26,14 +27,22 @@ article {
 	min-height: 30em;
 	margin: .5%;
 }
+
 img {
 	width:100%;
 	max-width:350px;
 	display:block;
 	margin:auto;
+	opacity:0.8;
 }
+
+img:hover
+{
+        opacity:1;
+}
+
 body {
-	background-color:/*#3E4744*/ ;
+	background-color:/*#3E4744*/;
 	font-size:16px;
 	font-family: 'Heebo', sans-serif;
 	font-weight:400;
@@ -41,14 +50,15 @@ body {
 	color: #fff;
 	}
 a img {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	/*-webkit-filter: grayscale(80%);
+	filter: *grayscale(80%);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 a:hover img {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+*/
 }
 h1 {
 	color:#FFF;
@@ -63,25 +73,29 @@ h2 {
 	padding:1em 0 1em 0;
 	text-transform: uppercase;
 	color:#fff;
+	margin-bottom:2em;
 }
 h3 {
-	font-weight:700;
-	text-transform: uppercase;
+	font-weight:400;
+	font-color:#E8EAF7;
 }
 h4 {
 	font-weight:300;
 	text-transform: uppercase;
 	padding:0.5em;
+	line-height: 1.2em;
 	}
 header {
 	text-transform: uppercase;
 	text-align:center;
     background-color: rgba(0, 0, 0, 0.1);
 }
+
 img {
-	display:block;
+	display:inline;
 	margin:0 auto;
 	width:350px;
+	background: rgba(143,135,103,0.82);
 }
 li{
     float: left;
@@ -128,21 +142,15 @@ ul {
 	width:1200px;
 }
 
-#contactleft {
-    background-color:;
-    text-align:right;
-    padding:2em 8em 0 0;
-    float: left;
-    width: 50%;
+#contact {
+   background-color:#34355C;
+   padding:3em; 
 }
-#contactright {
-   background-color:;
-    padding: 10px;
-    text-align:center;
-    padding:0 8em 0 0;
-    float: right;   
-    width: 50%;
+
+#contact > h2 {
+	margin-bottom:2em;
 }
+
 #lander{
 	background:url(../images/nolame.jpg) no-repeat center center scroll;
 	-webkit-background-size: cover;
@@ -153,8 +161,9 @@ ul {
 	padding:20px 0;
 }
 #projects {
-	background-color:/*#393A4F*/ #2A2E2B;
+	background-color:#2A2E2B;
 	padding-top: 2em;
+
 }
 
 #projects a{
@@ -163,19 +172,11 @@ ul {
 }
 
 #skills {
-	margin:5em auto;
+	margin:5em auto 0;
 	width:50em auto;
 	padding:2em 10em 4em 10em;
 	background-color: #34355C;
 	font-size:1.1em;
-}
-
-#two_column{
-	clear:both;
-	padding:10%;
-	background-color:#34355C;
-    padding:5% 0 20% 0;
-
 }
 
 .clearfix:after {
@@ -192,15 +193,16 @@ ul {
 	display:inline-block;
 }
 .contactlinks a:hover {
-	outline: 0.8px solid #fff;
+	color:#fff;
 	}
 
-.emaillink a:hover {
+.emaillink {
+	color:#fff;
+}
+.emaillink:hover {
 	outline: 0.8px solid #fff;
 }
-.fa {
-	font-size:1.3333em;
-}
+
 .navlinks a:hover{
 	outline: 0.8px solid #fff;
 }
