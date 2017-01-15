@@ -13,7 +13,6 @@ a {
 	border-bottom: 2px #fff;
 	padding:0.5em;
 	margin:1em;
-	transition: .5s ease;
 }
 
 a:hover {
@@ -99,11 +98,12 @@ nav a {
 	display:inline-block;
 	margin:0 15px 0 15px;
 	color:#fff;
-	transition: .5s ease;
+	transition: outline .5s ease;
 }
 
 nav a:hover {
-	outline: 0.8px solid #fff;
+	outline:0.8px solid #fff;
+	transition: outline 0.5s ease;
 	color:#fff;
 	
 	}
