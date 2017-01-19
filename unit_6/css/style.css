@@ -46,7 +46,7 @@ h1 {
 h2 {
 	text-align: center;
 	font-size:1.5em;
-	padding:1em 0 1em 0;
+	padding:.5em 0 .5em 0;
 	text-transform: uppercase;
 	color:#fff;
 	margin-bottom:2em;
@@ -135,11 +135,7 @@ ul {
 
 #contact {
    background-color:#34355C;
-   padding:3em; 
-}
-
-#contact > h2 {
-	margin-bottom:2em;
+   padding:2em; 
 }
 
 #lander{
@@ -153,7 +149,7 @@ ul {
 }
 #projects {
 	background-color:#2A2E2B;
-	padding-top: 2em;
+	padding: 2em;
 
 }
 
@@ -189,6 +185,7 @@ ul {
 
 .emaillink {
 	color:#fff;
+	margin-bottom:5em;
 }
 .emaillink:hover {
 	outline: 0.8px solid #fff;
