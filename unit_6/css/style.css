@@ -197,9 +197,13 @@ ul {
 
 @media only screen and (max-width: 925px) {
   #wrapper{
-    max-width: 600px;
-    margin: 0 auto;
+    	max-width: 600px;
+    	margin: 0 auto;
 }
+	h2{
+		padding:none;
+		margin:none;
+	}
 }
 
 @media only screen and (max-width: 800px) {
@@ -207,4 +211,10 @@ ul {
     float:none;
     text-align: center;
 }
+}
+@media only screen and (max-width: 800px) {
+	.emaillink, h2, .contactlinks {
+		margin:none;
+		padding:none;
+	}
 }
