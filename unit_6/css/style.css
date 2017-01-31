@@ -15,6 +15,10 @@ a {
 	margin:1em;
 }
 
+a:active { 
+    background-color:#fff;
+}
+
 a:hover {
 	color:#fff;
 	border-bottom: 1px;
@@ -80,6 +84,18 @@ img:hover
     -webkit-transition: .3s ease-in-out;
 }
 
+/*img:hover{
+    z-index: 100;
+    text-align: center;
+    line-height: 24px;
+    background-color: rgba(0,0,0,.7);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    transition: opacity .2s ease-out;
+}*/
 li{
     float: left;
     width: 50%;
@@ -145,6 +161,7 @@ ul {
 	height:600px;
 	padding:1.25em 0;
 }
+
 #projects {
 	background-color:#2A2E2B;
 	padding: 5em;
@@ -248,3 +265,48 @@ article {
 }
 }
 
+@media only screen and (max-width: 530px) {
+nav a {
+	float:left;
+	width:80%;
+	margin:0 15px 0 40px;
+	text-align: center;
+	display:none;
+}
+#aboutme {
+	display:block;
+	margin:3em;
+	padding:2em;
+} 
+#skills {
+	padding:1em;
+	text-align: center;
+}
+article {
+	width:100%;
+	float:left;
+	padding:0;
+	margin:0;
+}
+.contactlinks {
+	float:left;
+	width:100%;
+}
+#contact {
+	padding-bottom:20em;
+}
+h1 {
+	padding: 3.5em 0 0 0;
+	font-size:4em;
+
+}
+}
+
+@media only screen and (min-width: 1800px) {
+body {
+	font-size:24px;
+}
+#wrapper {
+	width:1600px;
+}
+}
