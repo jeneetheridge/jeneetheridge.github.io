@@ -211,10 +211,40 @@ ul {
     float:none;
     text-align: center;
 }
+article {
+	width:45%;
+	float:left;
 }
-@media only screen and (max-width: 800px) {
-	.emaillink, h2, .contactlinks {
-		margin:none;
-		padding:none;
+.emaillink, h2, .contactlinks {
+	margin:none;
+	padding:none;
 	}
+
 }
+@media only screen and (max-width: 1000px) {
+article {
+	width:40%;
+	float:left;
+}
+}
+
+@media only screen and (max-width: 900px) {
+#aboutme {
+	display:block;
+	margin:5em 10em 5em 10em;
+	padding:2em;
+} 
+#skills {
+	padding:2em 8em 4em 8em;
+	background-color: #34355C;
+	font-size:1.1em;
+}
+}
+
+@media only screen and (max-width: 750px) {
+article {
+	width:70%;
+	
+}
+}
+
