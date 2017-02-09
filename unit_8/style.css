@@ -227,6 +227,7 @@ ul {
   li {
     float:none;
     text-align: center;
+    width: 90%;
 }
 article {
 	width:45%;
@@ -236,7 +237,6 @@ article {
 	margin:none;
 	padding:none;
 	}
-
 }
 @media only screen and (max-width: 1000px) {
 article {
@@ -261,7 +261,7 @@ article {
 @media only screen and (max-width: 750px) {
 article {
 	width:70%;
-	
+
 }
 }
 
