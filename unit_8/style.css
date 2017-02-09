@@ -227,28 +227,21 @@ ul {
   li {
     float:none;
     text-align: center;
-    margin:none;
 }
 article {
-	width:60%;
+	width:45%;
 	float:left;
 }
 .emaillink, h2, .contactlinks {
 	margin:none;
 	padding:none;
-	
-}
-#skills {
-	margin:none;
-}
-}
+	}
 
+}
 @media only screen and (max-width: 1000px) {
 article {
-	width:50%;
+	width:40%;
 	float:left;
-	padding:0;
-	margin:0;
 }
 }
 
@@ -273,7 +266,12 @@ article {
 }
 
 @media only screen and (max-width: 530px) {
-
+nav a {
+	float:left;
+	width:80%;
+	margin:0 15px 0 40px;
+	text-align: center;
+}
 #aboutme {
 	display:block;
 	margin:3em;
@@ -282,7 +280,6 @@ article {
 #skills {
 	padding:1em;
 	text-align: center;
-	width:100% auto;
 }
 article {
 	width:100%;
@@ -300,6 +297,7 @@ article {
 h1 {
 	padding: 3.5em 0 0 0;
 	font-size:4em;
+
 }
 }
 
