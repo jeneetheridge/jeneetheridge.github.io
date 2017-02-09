@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300, 400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+a {
+	color:gray;
+	text-decoration:none;
+	border-bottom: 2px #fff;
+	padding:0.5em;
+	margin:1em;
+}
+
+a:active { 
+    background-color:#fff;
+}
+
+a:hover {
+	color:#fff;
+	border-bottom: 1px;
+	}
+
+article {
+	padding: 0.05em;
+	width: 32.33%;
+	float: left;
+	min-height: 30em;
+	margin: .5%;
+}
+
+body {
+	font-size:16px;
+	font-family: 'Heebo', sans-serif;
+	font-weight:400;
+	text-align:center;
+	color: #fff;
+}
+h1 {
+	color:#FFF;
+	font-family:'Droid Sans Mono', monospace;
+	text-transform: uppercase;
+    padding: 1.5em 0 0;
+    font-size:5em;
+}
+h2 {
+	text-align: center;
+	font-size:1.5em;
+	padding:.5em 0 .5em 0;
+	text-transform: uppercase;
+	color:#fff;
+	margin-bottom:2em;
+}
+h3 {
+	font-weight:400;
+	font-color:#E8EAF7;
+}
+h4 {
+	font-weight:300;
+	text-transform: uppercase;
+	padding:0.5em;
+	line-height: 1.2em;
+	}
+header {
+	text-transform: uppercase;
+	text-align:center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+img {
+	width:95%;
+	opacity:0.6;
+	display:inline;
+	margin:1em auto;
+	background: rgba(143,135,103,0.82);
+}
+
+img:hover
+{
+    opacity:1;
+    -webkit-transition: .3s ease-in-out;
+}
+
+/*img:hover{
+    z-index: 100;
+    text-align: center;
+    line-height: 24px;
+    background-color: rgba(0,0,0,.7);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity .2s ease-out;
+    -moz-transition: opacity .2s ease-out;
+    -o-transition: opacity .2s ease-out;
+    transition: opacity .2s ease-out;
+}*/
+li{
+    float: left;
+    width: 50%;
+    padding:0.8em;
+}
+nav {
+	padding-top: 3em;
+	font-size:1.1em;
+	transition: .5s ease;
+}
+nav a {
+	padding: 0.625em;
+	border-bottom: none;
+	display:inline-block;
+	margin:0 15px 0 15px;
+	color:#fff;
+	transition: outline .5s ease;
+}
+
+nav a:hover {
+	outline:0.8px solid #fff;
+	transition: outline 0.5s ease;
+	color:#fff;
+	
+	}
+	
+p {
+	font-size:1em;
+	line-height: 1.5em;
+	text-align:center;
+	color:#393A4F;
+}
+ul {
+    list-style: none;
+    margin:0;
+}
+
+#aboutme {
+	display:block;
+	margin:5em 13em 5em 13em;
+	width:50em auto;
+	padding:2em;
+} 
+
+#aboutme p {
+	font-size:1.1em;
+}
+#background {
+	width:100%;
+}
+
+#contact {
+   background-color:#34355C;
+   padding:2em; 
+}
+
+#lander{
+	background:url(../images/nolame.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:600px;
+	padding:1.25em 0;
+}
+
+#projects {
+	background-color:#2A2E2B;
+	padding: 5em;
+
+}
+#projects a{
+	margin:0px;
+}
+
+#skills {
+	margin:5em auto 0;
+	width:74% auto;
+	padding:2em 10em 4em 10em;
+	background-color: #34355C;
+	font-size:1.1em;
+}
+
+#wrapper {
+	width:100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.contactlinks {
+	margin-bottom:.5em;
+	display:inline-block;
+}
+.contactlinks a:hover {
+	color:#fff;
+	}
+
+.emaillink {
+	color:#fff;
+	margin-bottom:5em;
+}
+.emaillink:hover {
+	outline: 0.8px solid #fff;
+}
+
+.fa {
+	padding-right: 0.5em;
+}
+
+@media only screen and (max-width: 925px) {
+  #wrapper{
+    	max-width: 600px;
+    	margin: 0 auto;
+}
+	h2{
+		padding:none;
+		margin:none;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+  li {
+    float:none;
+    text-align: center;
+    width: 90%;
+}
+article {
+	width:45%;
+	float:left;
+}
+.emaillink, h2, .contactlinks {
+	margin:none;
+	padding:none;
+	}
+}
+@media only screen and (max-width: 1000px) {
+article {
+	width:40%;
+	float:left;
+}
+}
+
+@media only screen and (max-width: 900px) {
+#aboutme {
+	display:block;
+	margin:5em 10em 5em 10em;
+	padding:2em;
+} 
+#skills {
+	padding:2em 8em 4em 8em;
+	background-color: #34355C;
+	font-size:1.1em;
+}
+}
+
+@media only screen and (max-width: 750px) {
+article {
+	width:70%;
+
+}
+}
+
+@media only screen and (max-width: 530px) {
+nav a {
+	float:left;
+	width:80%;
+	margin:0 15px 0 40px;
+	text-align: center;
+}
+#aboutme {
+	display:block;
+	margin:3em;
+	padding:2em;
+} 
+#skills {
+	padding:1em;
+	text-align: center;
+}
+article {
+	width:100%;
+	float:left;
+	padding:0;
+	margin:0;
+}
+.contactlinks {
+	float:left;
+	width:100%;
+}
+#contact {
+	padding-bottom:20em;
+}
+h1 {
+	padding: 3.5em 0 0 0;
+	font-size:4em;
+
+}
+}
+
+@media only screen and (min-width: 1800px) {
+body {
+	font-size:24px;
+}
+#wrapper {
+	width:1600px;
+}
+}
