@@ -299,5 +299,10 @@ nav a {
 	text-align: center;
 }
 
-
+@media only screen and (max-width: 450px) {
+	h1 {
+	padding: 3.5em 0 0 0;
+	font-size:3em;
+}
+}
 
