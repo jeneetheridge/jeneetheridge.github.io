@@ -109,6 +109,10 @@ nav a:hover {
 	
 	}
 	
+nav a:active {
+	color:gray;
+	
+	}	
 p {
 	font-size:1em;
 	line-height: 1.5em;
@@ -192,7 +196,9 @@ ul {
 .contactlinks a:hover {
 	color:#fff;
 	}
-
+.contactlinks a:active {
+	color:#fff;
+	}
 .emaillink {
 	color:#fff;
 	margin-bottom:5em;
@@ -200,7 +206,9 @@ ul {
 .emaillink:hover {
 	outline: 0.8px solid #fff;
 }
-
+.emaillink:active {
+	color:gray;
+}
 @media only screen and (max-width: 1000px) {
 
 #aboutme {
