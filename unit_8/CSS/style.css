@@ -28,7 +28,6 @@ article {
 	padding: 0.05em;
 	width: 32.33%;
 	float: left;
-	min-height: 30em;
 	margin: .5%;
 }
 
@@ -135,10 +134,17 @@ ul {
 #background {
 	width:100%;
 }
+#backtotop {
+    background-color: white;
+    display: block;
+    margin: 3em auto;
+    padding-top: 3em;
+}
 
 #contact {
    background-color:#34355C;
-   padding:2em; 
+   padding-top: 2em;
+  
 }
 
 #lander{
@@ -154,16 +160,14 @@ ul {
 #projects {
 	background-color:#2A2E2B;
 	padding: 5em;
-
 }
 #projects a{
 	margin:0px;
 }
 
 #skills {
-	margin:5em auto 0;
 	width:74% auto;
-	padding:1em;
+	padding:2em;
 	background-color: #34355C;
 	font-size:1.1em;
 }
@@ -201,104 +205,98 @@ ul {
 	padding-right: 0.5em;
 }
 
+@media only screen and (max-width: 1000px) {
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-nav a {
-	float:left;
-	width:80%;
-	margin:0 15px 0 40px;
+#aboutme {
+	margin:5em 10em 5em 10em;
+} 
+#projects {
+	padding:1em;
+}
+#skills {
+	padding:2.5em;
 	text-align: center;
+}
+}
+
+@media only screen and (max-width: 900px) {
+
+article {
+	width:50%;
+	float:left;
+	margin:0;
+	padding:.5em;
 }
 #aboutme {
-	display:block;
-	margin:3em;
-	padding:2em;
+	margin:5em 8em 5em 8em;
 } 
-#skills {
-	padding:1em;
-	text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
 article {
 	width:100%;
 	float:left;
-	padding:0;
+	padding:1em 4em 1em 4em;
 	margin:0;
 }
-.contactlinks {
-	float:left;
+li {
+    float:none;
+    text-align: center;
+    width:100%;
+}
+
+#aboutme {
+	margin:5em 8em 5em 8em;
+} 
+}
+
+@media only screen and (max-width: 750px) {
+h2 {
+	
+	margin:.4em
+}
+#aboutme {
+	margin:1em;
+	padding:3em;
+}
+}
+
+@media only screen and (max-width: 550px) {
+article {
 	width:100%;
+	float:left;
+	padding:1em;
+	margin:0;
 }
-#contact {
-	padding-bottom:20em;
-}
+
 h1 {
 	padding: 3.5em 0 0 0;
 	font-size:4em;
-
-}
 }
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-  li {
-    float:none;
-    text-align: center;
-    width: 90%;
-}
-article {
-	width:45% /*70%*/;
+nav a {
 	float:left;
-}
-.emaillink, h2, .contactlinks {
-	margin:none;
-	padding:none;
-	}
-}
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-article {
-	width:40%;
-	float:left;
-}
-}
-
-#wrapper{
-    	max-width: 600px;
-    	margin: 0 auto;
-}
-}
-	h2{
-		padding:none;
-		margin:none;
-	}
+	width:90%;
+	padding:.5em 0 .5em 0;
 }
 #aboutme {
-	display:block;
-	margin:5em 10em 5em 10em;
-	padding:2em;
+	margin:2em;
+	padding:2em 2em 0 2em;
 } 
-#projects {
-	background-color:#2A2E2B;
-	padding: 5em;
-	width:auto;
+#backtotop {
+    margin: 6em auto;
+}
+#contact {
+	padding-bottom:0;
 }
 #skills {
-	padding:2em 8em 4em 8em;
-	background-color: #34355C;
-	font-size:1.1em;
+    margin: 2em auto 0;
 }
-}
-
-/* Large desktop */
-@media (min-width: 1200px) {
-body {
-	font-size:24px;
-}
-#wrapper {
-	width:1600px;
-}
+.contactlinks {
+	float:left;
+	width:33%;
+	margin:0;
+	text-align: center;
 }
 
 
