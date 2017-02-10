@@ -291,6 +291,7 @@ nav a {
 }
 #skills {
     margin: 2em auto 0;
+    padding:1em;
 }
 .contactlinks {
 	float:left;
@@ -307,9 +308,6 @@ h1 {
 #aboutme {
 	margin:1.2em;
 	padding:1.2em;
-} 
-#skills {
-    margin: 1em auto 0;
 }
 }
 
