@@ -84,18 +84,6 @@ img:hover
     -webkit-transition: .3s ease-in-out;
 }
 
-/*img:hover{
-    z-index: 100;
-    text-align: center;
-    line-height: 24px;
-    background-color: rgba(0,0,0,.7);
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: opacity .2s ease-out;
-    -moz-transition: opacity .2s ease-out;
-    -o-transition: opacity .2s ease-out;
-    transition: opacity .2s ease-out;
-}*/
 li{
     float: left;
     width: 50%;
@@ -127,6 +115,7 @@ p {
 	line-height: 1.5em;
 	text-align:center;
 	color:#393A4F;
+	max-width:35em;
 }
 ul {
     list-style: none;
@@ -174,7 +163,7 @@ ul {
 #skills {
 	margin:5em auto 0;
 	width:74% auto;
-	padding:2em 10em 4em 10em;
+	padding:1em;
 	background-color: #34355C;
 	font-size:1.1em;
 }
@@ -212,60 +201,9 @@ ul {
 	padding-right: 0.5em;
 }
 
-@media only screen and (max-width: 925px) {
-  #wrapper{
-    	max-width: 600px;
-    	margin: 0 auto;
-}
-	h2{
-		padding:none;
-		margin:none;
-	}
-}
 
-@media only screen and (max-width: 800px) {
-  li {
-    float:none;
-    text-align: center;
-    width: 90%;
-}
-article {
-	width:45%;
-	float:left;
-}
-.emaillink, h2, .contactlinks {
-	margin:none;
-	padding:none;
-	}
-}
-@media only screen and (max-width: 1000px) {
-article {
-	width:40%;
-	float:left;
-}
-}
-
-@media only screen and (max-width: 900px) {
-#aboutme {
-	display:block;
-	margin:5em 10em 5em 10em;
-	padding:2em;
-} 
-#skills {
-	padding:2em 8em 4em 8em;
-	background-color: #34355C;
-	font-size:1.1em;
-}
-}
-
-@media only screen and (max-width: 750px) {
-article {
-	width:70%;
-
-}
-}
-
-@media only screen and (max-width: 530px) {
+/* Landscape phones and down */
+@media (max-width: 480px) {
 nav a {
 	float:left;
 	width:80%;
@@ -301,7 +239,60 @@ h1 {
 }
 }
 
-@media only screen and (min-width: 1800px) {
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  li {
+    float:none;
+    text-align: center;
+    width: 90%;
+}
+article {
+	width:45% /*70%*/;
+	float:left;
+}
+.emaillink, h2, .contactlinks {
+	margin:none;
+	padding:none;
+	}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+article {
+	width:40%;
+	float:left;
+}
+}
+
+#wrapper{
+    	max-width: 600px;
+    	margin: 0 auto;
+}
+}
+	h2{
+		padding:none;
+		margin:none;
+	}
+}
+#aboutme {
+	display:block;
+	margin:5em 10em 5em 10em;
+	padding:2em;
+} 
+#projects {
+	background-color:#2A2E2B;
+	padding: 5em;
+	width:auto;
+}
+#skills {
+	padding:2em 8em 4em 8em;
+	background-color: #34355C;
+	font-size:1.1em;
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
 body {
 	font-size:24px;
 }
@@ -309,3 +300,6 @@ body {
 	width:1600px;
 }
 }
+
+
+
