@@ -308,6 +308,9 @@ nav a {
 .fa-5x {
     padding: 0.5em;
 }
+#lander {
+	height:400px;
+}
 #skills {
     margin: 2em auto 0;
     padding:1em;
