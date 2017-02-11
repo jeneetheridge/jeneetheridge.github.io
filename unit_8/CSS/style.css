@@ -82,6 +82,16 @@ img:hover
     opacity:1;
     -webkit-transition: .3s ease-in-out;
 }
+label {
+	padding: 0.625em;
+	border-bottom: none;
+	display:inline-block;
+	margin:0 15px 0 15px;
+	color:#fff;
+	transition: outline .5s ease;
+	font-size: 1.1em;
+	display:none;
+}
 
 li{
     float: left;
@@ -174,6 +184,9 @@ ul {
 	padding:2em;
 	background-color: #34355C;
 	font-size:1.1em;
+}
+#toggle {
+display:none 
 }
 
 #wrapper {
@@ -303,15 +316,28 @@ nav a {
 	margin:0;
 	text-align: center;
 }
+label{
+		display: block;
+	}
+
+#toggle:checked + nav{
+		display: block;
+	}
+
+nav {
+	display: none;
+}
+}
 
 @media only screen and (max-width: 450px) {
 h1 {
 	padding: 3.5em 0 0 0;
-	font-size:3em;
+	font-size:3.5em;
 }
 #aboutme {
 	margin:1.2em;
 	padding:1.2em;
 }
+
 }
 
