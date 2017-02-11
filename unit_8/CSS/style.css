@@ -336,6 +336,9 @@ nav {
 	margin:1.2em;
 	padding:1.2em;
 }
-
+h1 {
+	padding: 2em 0 0 0;
+	font-size:3em;
+}
 }
 
