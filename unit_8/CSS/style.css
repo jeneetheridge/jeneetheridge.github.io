@@ -152,7 +152,6 @@ ul {
     background-color: white;
     display: block;
     margin: 3em auto;
-    padding-top: 3em;
 }
 
 #contact {
@@ -287,8 +286,8 @@ article {
 }
 
 h1 {
-	padding: 3.5em 0 0 0;
-	font-size:4em;
+	padding: 2em 0 0 0;
+	font-size:3.5em;
 }
 
 nav a {
@@ -305,6 +304,9 @@ nav a {
 }
 #contact {
 	padding-bottom:0;
+}
+.fa-5x {
+    padding: 0.5em;
 }
 #skills {
     margin: 2em auto 0;
@@ -330,10 +332,6 @@ nav {
 }
 
 @media only screen and (max-width: 450px) {
-h1 {
-	padding: 3.5em 0 0 0;
-	font-size:3.5em;
-}
 #aboutme {
 	margin:1.2em;
 	padding:1.2em;
