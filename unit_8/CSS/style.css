@@ -289,11 +289,13 @@ h1 {
 	padding: 2em 0 0 0;
 	font-size:3.5em;
 }
-
+nav {
+    padding-top:0;
+    }
 nav a {
 	float:left;
 	width:90%;
-	padding:.5em 0 .5em 0;
+	padding:.625em;
 }
 #aboutme {
 	margin:2em;
