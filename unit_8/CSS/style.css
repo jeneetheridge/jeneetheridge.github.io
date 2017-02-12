@@ -26,7 +26,7 @@ a:hover {
 
 article {
 	padding: 0.05em;
-	width: 32.33%;
+	width: 33.33%;
 	float: left;
 }
 
@@ -134,7 +134,7 @@ ul {
 }
 
 #aboutme {
-	display:block;
+	display:inline-block;
 	margin:5em 13em 5em 13em;
 	width:50em auto;
 	padding:2em;
@@ -177,7 +177,7 @@ ul {
 }
 
 #skills {
-	padding:2em 5em 2em 5em;
+	padding:1em 5em 2em 5em;
 	background-color: #34355C;
 	font-size:1.1em;
 }
