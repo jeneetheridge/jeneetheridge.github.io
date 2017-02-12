@@ -28,7 +28,6 @@ article {
 	padding: 0.05em;
 	width: 32.33%;
 	float: left;
-	margin: .5%;
 }
 
 body {
@@ -128,7 +127,6 @@ p {
 	line-height: 1.5em;
 	text-align:center;
 	color:#393A4F;
-	max-width:35em;
 }
 ul {
     list-style: none;
@@ -172,7 +170,7 @@ ul {
 
 #projects {
 	background-color:#2A2E2B;
-	padding: 5em;
+	padding: 3em;
 }
 #projects a{
 	margin:0px;
@@ -244,7 +242,7 @@ article {
 	padding:.5em;
 }
 #aboutme {
-	margin:5em 8em 5em 8em;
+	margin:5em;
 } 
 }
 
@@ -262,7 +260,7 @@ li {
 }
 
 #aboutme {
-	margin:5em 8em 5em 8em;
+	margin:4.5em;
 } 
 }
 
