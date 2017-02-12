@@ -177,8 +177,7 @@ ul {
 }
 
 #skills {
-	width:74% auto;
-	padding:2em;
+	padding:2em 5em 2em 5em;
 	background-color: #34355C;
 	font-size:1.1em;
 }
