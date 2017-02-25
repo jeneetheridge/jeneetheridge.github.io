@@ -24,8 +24,7 @@ a:hover {
 	border-bottom: 1px;
 	}
 
-article {
-	padding: 0.05em;
+article {	
 	width: 32.33%;
 	float: left;
 }
@@ -39,7 +38,7 @@ body {
 }
 h1 {
 	color:#FFF;
-	font-family:'Droid Sans Mono', monospace;
+	font-family:'Droid Sans Mono', monospace, serif;
 	text-transform: uppercase;
     padding: 1.5em 0 0;
     font-size:5em;
@@ -55,6 +54,7 @@ h2 {
 h3 {
 	font-weight:400;
 	font-color:#E8EAF7;
+	letter-spacing:0.1em
 }
 h4 {
 	font-weight:300;
@@ -134,10 +134,10 @@ ul {
 }
 
 #aboutme {
-	display:inline-block;
-	margin:5em 13em 5em 13em;
-	width:50em auto;
-	padding:2em;
+	display: inline-block;
+    margin: 5em 0;
+    max-width: 50em;
+    padding: 2em;
 } 
 
 #aboutme p {
@@ -171,22 +171,24 @@ ul {
 #projects {
 	background-color:#2A2E2B;
 	padding: 3em;
+	max-width: 1220px;
 }
 #projects a{
 	margin:0px;
 }
 
 #skills {
-	padding:1em 5em 2em 5em;
+	padding:4em 0;
 	background-color: #34355C;
 	font-size:1.1em;
 }
+#skills div {
+	width: 40em;
+	margin:auto;
+	text-align:left;
+}
 #toggle {
 display:none 
-}
-
-#wrapper {
-	width:100%;
 }
 
 .clearfix:after {
@@ -236,7 +238,7 @@ display:none
 }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1051px) {
 
 article {
 	width:50%;

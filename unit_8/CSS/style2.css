@@ -34,7 +34,6 @@ body {
 	font-size:16px;
 	font-family: 'Heebo', sans-serif;
 	font-weight:400;
-	text-align:center;
 	color: #fff;
 }
 h1 {
@@ -42,15 +41,14 @@ h1 {
 	font-family:'Droid Sans Mono', monospace;
 	text-transform: uppercase;
     padding: 0.8em;
-    font-size:5em;
+    font-size:4xem;
+
 }
 h2 {
-	text-align: center;
 	font-size:1.5em;
-	padding:.5em 0 .5em 0;
+	padding:.5em;
 	text-transform: uppercase;
 	color:#fff;
-	margin-bottom:2em;
 }
 h3 {
 	font-weight:400;
@@ -117,7 +115,6 @@ nav a:active {
 p {
 	font-size:1em;
 	line-height: 1.5em;
-	text-align:center;
 	color:#393A4F;
 }
 ul {
@@ -133,7 +130,7 @@ ul {
 
 #aboutme p {
 	font-size:1.1em;
-	padding:2em;
+	padding:0.5em;
 }
 #background {
 	width:100%;

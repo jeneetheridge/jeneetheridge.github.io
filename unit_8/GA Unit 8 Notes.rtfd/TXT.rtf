@@ -1,0 +1,133 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red26\green26\blue26;}
+\margl1440\margr1440\vieww8280\viewh13700\viewkind0
+\deftab720
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f0\b\fs26 \cf2 \expnd0\expndtw0\kerning0
+Unit 8: Media Queries \
+
+\b0 \
+Media Queries allow for retrieval of information about the type of device that\'92s viewing our site and deliver contextual CSS styles accordingly. \
+\
+@ media only screen and (min-width:768px)\
+\
+@media only screen and max-width: 768px\
+\
+@media only screen and (min-width:320px) and (max-width:480px) \
+\
+Media queries are essentially an if/then statement: \'93If the browser is _ pixels or less, change the design in the following ways.\'94\
+\
+Set breakpoints by DESIGN not DEVICE.\
+\
+1. Shrink the browser window until you find a problem \
+2. use a media query to fix that problem\
+3. Continue shrinking the browser until a second issue occurs\
+4. Use a media query to fix that problem\
+\
+Make sure you\'92ve updated your site from a fixed-width layout to a fluid layout by changing the widths of elements on your screen from pixels to percentages. \
+\
+Make your page full screen and start slowly shrinking the browser width. Add a media query at the first point where the content becomes difficult to read, use, interact with, or otherwise consume. \
+\
+Common issues you might encounter:\
+- Elements become too small for the content they contain.\
+- Text anywhere on the page becomes difficult to read due to changes in size or layout. \
+- An image becomes too small to see clearly. \
+- The padding or margin becomes too small to frame content in the style you want. \
+\
+
+\b Em Units \
+\
+
+\b0 Em: a unit of measurement used in typography and is traditionally defined as the width of the uppercase M in the current face and point size. \
+\
+media query - adjust body font size to change the rest of typography \
+\
+- Change any pixel values to percentages. \
+- change nav a to display:block, margin:0\
+- change wrapper width to adjust image sies \
+- add meta tag to head of html:\
+<meta name=\'93viewport\'94 content=\'93width=device-width, initialscale=1\'94>\
+\
+Viewport: the width of the screen\
+All mobile devices have 2 orientations: Portrait and Landscape \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural\partightenfactor0
+
+\f1\fs24 \cf0 \kerning1\expnd0\expndtw0 {{\NeXTGraphic Screen Shot 2017-02-08 at 5.40.31 PM.png \width10520 \height5660
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \
+\
+Max-width sets a maximum size for how wide a selected element can be. If you have a width already set, max-width will override the current width setting. \
+\
+Min-width sets a minimum length for a selected element. It can override both width and max-width. \
+\
+* When setting max-width always use pixels or ems. \
+* Set a max and min width for containers\
+\
+\
+\
+
+\b LECTURE NOTES\
+\
+
+\b0 45px width and height for something someone is touching\
+thumb touch: 72px \
+\
+Add to html before nav\
+\
+try setting nav a to display:block, adjust padding and margin \
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \
+Add to html before nav:\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \
+<input type=\'93checkbox\'94 id=\'93toggle\'94>\
+<label for=\'93toggle\'94>Menu</label>\
+\
+add nav a styling to \'91label\'92 tag, add display:none \
+\
+in media query: add \
+label \{\
+display:block\
+\}\
+nav \{\
+display:none\
+\}\
+#toggle:checked + nav \{\
+display:block \}\
+\
+in css: add \
+#toggle \{\
+display:none \
+\}\
+\
+\
+\
+\
+\
+\
+\pard\tx6695\pardeftab720\sl300\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
