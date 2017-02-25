@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300, 400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Outline');
+
+* {
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+a {
+	color:gray;
+	text-decoration:none;
+	border-bottom: 2px #fff;
+	padding:0.5em;
+	margin:1em;
+}
+
+a:active { 
+    background-color:#fff;
+}
+
+a:hover {
+	color:#fff;
+	border-bottom: 1px;
+	}
+
+article {
+	padding: 0.05em;
+	width: 32.33%;
+	float: left;
+}
+
+body {
+	font-size:16px;
+	font-family: 'Heebo', sans-serif;
+	font-weight:400;
+	color: #fff;
+}
+h1 {
+	color:#FFF;
+	font-family:'Droid Sans Mono', monospace;
+	text-transform: uppercase;
+    padding: 0.8em;
+    font-size:4xem;
+
+}
+h2 {
+	font-size:1.5em;
+	padding:.5em;
+	text-transform: uppercase;
+	color:#fff;
+}
+h3 {
+	font-weight:400;
+	font-color:#E8EAF7;
+}
+h4 {
+	font-weight:300;
+	text-transform: uppercase;
+	padding:0.5em;
+	line-height: 1.2em;
+	}
+header {
+	text-transform: uppercase;
+	text-align:center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+img {
+	width:40%;
+	display:inline;
+	margin:2em;
+}
+label {
+	padding: 0.625em;
+	border-bottom: none;
+	display:inline-block;
+	margin:0 15px 0 15px;
+	color:#fff;
+	transition: outline .5s ease;
+	font-size: 1.1em;
+	display:none;
+}
+
+li{
+    float: left;
+    width: 50%;
+    padding:0.8em;
+}
+nav {
+	padding-top: 3em;
+	font-size:1.1em;
+	transition: .5s ease;
+}
+nav a {
+	padding: 0.625em;
+	border-bottom: none;
+	display:inline-block;
+	margin:0 15px 0 15px;
+	color:#fff;
+	transition: outline .5s ease;
+}
+
+nav a:hover {
+	outline:0.8px solid #fff;
+	transition: outline 0.5s ease;
+	color:#fff;
+	
+	}
+	
+nav a:active {
+	color:gray;
+	
+	}	
+p {
+	font-size:1em;
+	line-height: 1.5em;
+	color:#393A4F;
+}
+ul {
+    list-style: none;
+    margin:0;
+}
+
+#aboutme {
+	display:inline-block;
+	margin:4em 10em 4em 10em;
+	padding:2em;
+} 
+
+#aboutme p {
+	font-size:1.1em;
+	padding:0.5em;
+}
+#background {
+	width:100%;
+}
+#backtotop {
+    background-color: white;
+    display: block;
+    margin: 3em auto;
+}
+
+#contact {
+   background-color:#34355C;
+   padding-top: 2em;
+  
+}
+
+#lander{
+	background:url(../images/nolame.jpg) no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:400px;
+	padding:1.25em 0;
+}
+
+#projects {
+	background-color:#2A2E2B;
+	padding: 3em;
+}
+#projects a{
+	margin:0px;
+}
+
+#skills {
+	padding:1em 5em 2em 5em;
+	background-color: #34355C;
+	font-size:1.1em;
+}
+#toggle {
+display:none 
+}
+
+#wrapper {
+	width:100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.contactlinks {
+	margin-bottom:.5em;
+	display:inline-block;
+}
+.contactlinks a:hover {
+	color:#fff;
+	}
+.contactlinks a:active {
+	color:#fff;
+	}
+.emaillink {
+	color:#fff;
+	margin-bottom:5em;
+}
+.emaillink:hover {
+	outline: 0.8px solid #fff;
+}
+.emaillink:active {
+	color:gray;
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+#aboutme {
+	margin:5em 10em 5em 10em;
+} 
+#projects {
+	padding:1em;
+}
+#skills {
+	padding:2.5em;
+	text-align: center;
+}
+}
+
+@media only screen and (max-width: 900px) {
+
+article {
+	width:50%;
+	float:left;
+	margin:0;
+	padding:.5em;
+}
+#aboutme {
+	margin:5em;
+} 
+}
+
+@media only screen and (max-width: 800px) {
+article {
+	width:100%;
+	float:left;
+	padding:1em 4em 1em 4em;
+	margin:0;
+}
+li {
+    float:none;
+    text-align: center;
+    width:100%;
+}
+
+#aboutme {
+	margin:4.5em;
+} 
+}
+
+@media only screen and (max-width: 750px) {
+h2 {
+	
+	margin:.4em
+}
+#aboutme {
+	margin:1em;
+	padding:3em;
+}
+}
+
+@media only screen and (max-width: 550px) {
+article {
+	width:100%;
+	float:left;
+	padding:1em;
+	margin:0;
+}
+
+h1 {
+	padding: 2em 0 0 0;
+	font-size:3.5em;
+}
+nav {
+    padding-top:0;
+    }
+nav a {
+	float:left;
+	width:90%;
+	padding:.625em;
+}
+#aboutme {
+	margin:2em;
+	padding:2em 2em 0 2em;
+} 
+#backtotop {
+    margin: 6em auto;
+}
+#contact {
+	padding-bottom:0;
+}
+.fa-5x {
+    padding: 0.5em;
+}
+#lander {
+	height:500px;
+}
+#skills {
+    margin: 2em auto 0;
+    padding:1em;
+}
+.contactlinks {
+	float:left;
+	width:33%;
+	margin:0;
+	text-align: center;
+}
+label{
+		display: block;
+	}
+
+#toggle:checked + nav{
+		display: block;
+	}
+
+nav {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 450px) {
+#aboutme {
+	margin:1.2em;
+	padding:1.2em;
+}
+h1 {
+	padding: 2em 0 0 0;
+	font-size:3em;
+}
+}
+
